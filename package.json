@@ -1,6 +1,6 @@
 {
   "name": "gomoon-restapi-2",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Template of Rest API with NodeJs and Koa.",
   "main": "index.js",
   "scripts": {

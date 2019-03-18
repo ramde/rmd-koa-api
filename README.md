@@ -1,6 +1,6 @@
 # Template REST API v.2.0.0
 
-Este é um template simples e funcional para acelerar o desevolvimento de APIs Rest, utilizando o [KOA](http://koajs.com/). Este template está na versão 2 porque a [primeira versão](https://github.com/GomoonMvp/gomoon-api-nodejs) foi desenvolvida na versão 1 KOA e, utilizada como acelerador para de desenvolvimentos de MVPs na minha antiga Startup, [GoMoon](https://gomoon.com.br).
+Este é um template simples e funcional para acelerar o desevolvimento de APIs Rest utilizando o [KOA](http://koajs.com/). Este template está na versão 2, porque a [primeira versão](https://github.com/GomoonMvp/gomoon-api-nodejs) foi desenvolvida na versão 1 do KOA e, utilizada como acelerador para de desenvolvimentos de MVPs na minha antiga Startup, [GoMoon](https://gomoon.com.br).
 
 # Api REST GoMoon Template
 

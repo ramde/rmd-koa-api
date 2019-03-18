@@ -16,7 +16,9 @@ app.use(async (ctx, next) => {
 });
 
 //Publics Routes
-require('./src/routes/public/heyThere')({router});
+require('./src/routes/public/heyThere')({
+    router
+});
 
 app
     .use(logger())
@@ -24,7 +26,9 @@ app
     .use(router.routes())
     .use(require('koa-body')());
 
-const server = app.listen(3000);
-console.log("Rest API is Running in http://localhost:3000");
+const server = app.listen(process.env.PORT || 3000);
+console.log(
+    "Rest API is Running in http://localhost:%d",
+    process.env.PORT || 3000);
 
 module.exports = server;
